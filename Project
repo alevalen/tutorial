@@ -1,0 +1,25 @@
+<html class="gr__alek-pc_attlocal_net"><head>
+<title>Title of Web Page</title>
+<script language="javascript">
+   <!-- 
+   LVImages = new Array();
+   LVSrcs = new Array();
+   function LVSched(image, delay) {
+      LVImages[LVImages.length] = image;
+      LVSrcs[LVSrcs.length] = image.src;
+      setInterval("LVUpdate("+(LVImages.length-1)+")", delay);
+      image.onload='';
+   }
+   function LVUpdate(index) {
+      LVImages[index].src = LVSrcs[index] + '&' + Math.random();
+   }
+   //-->
+</script>
+</head>
+<body data-gr-c-s-loaded="true">
+<h1>Title of Web Page</h1>
+Text that is going to be displayed before the VI panel image.<p>
+<img src="http://alek-pc.attlocal.net:57/.snap?Untitled%20Project%201.lvproj/My%20Computer/UART%20LabVIEW%20Integrated%204.vi&amp;0.2828731046919133" alt="Untitled Project 1.lvproj/My Computer/UART LabVIEW Integrated 4" border="1" onload="LVSched(this, 1000)"></p><p>
+Text that is going to be displayed after the VI panel image.
+
+</p></body><span class="gr__tooltip"><span class="gr__tooltip-content"></span><i class="gr__tooltip-logo"></i><span class="gr__triangle"></span></span></html>
